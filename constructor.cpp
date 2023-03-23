@@ -14,6 +14,8 @@ class A{
     {
         cout<<x;
     }
+    public:
+      int a=10;
 };
 //class B:public A{
 //     public:
@@ -26,4 +28,5 @@ int main()
 {
     A obj(10);
     A obj1("ram");
+    cout<<endl<<obj.a;
 }
